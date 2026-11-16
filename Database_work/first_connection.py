@@ -1,15 +1,5 @@
 import pyodbc
 
-# connection = pyodbc.connect('DRIVER={SQL Server}; SERVER=.\SQLEXPRESS; DATABASE=TSQLV6;' )
-
-
-# conn_str = (
-#     r'Driver=SQL Server;'
-#     r'Server=.\SQLEXPRESS;'
-#     r'Database=TSQLV6;'
-#     r'Trusted_Connection=yes;'
-#     )
-# connection = pyodbc.connect(conn_str)
 
 conn = pyodbc.connect(
     "DRIVER={ODBC Driver 18 for SQL Server};"
